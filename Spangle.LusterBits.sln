@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A51BA43-6ED9-4D07-AA63-7379E55C2B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spangle.LusterBits.Generator", "src\Spangle.LusterBits.Generator\Spangle.LusterBits.Generator.csproj", "{7521B722-12D8-4FF1-97F8-4D565DBD8AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{30BB4A27-A6D0-401F-9D93-A7408897DA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spangle.LusterBits.Tests", "tests\Spangle.LusterBits.Tests\Spangle.LusterBits.Tests.csproj", "{C9D273A6-A73D-427E-A0A0-EBF67E97ED4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spangle.LusterBits", "src\Spangle.LusterBits\Spangle.LusterBits.csproj", "{51569097-1ABA-4119-B99E-10FC65617A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spangle.LusterBits.Tests.Snapshot", "tests\Spangle.LusterBits.Tests.Snapshot\Spangle.LusterBits.Tests.Snapshot.csproj", "{B0CD3116-CA04-4102-A9B5-5C660BD7134C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{862F3AC5-447B-4B0D-B73A-C4630B2D89BC}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7521B722-12D8-4FF1-97F8-4D565DBD8AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7521B722-12D8-4FF1-97F8-4D565DBD8AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7521B722-12D8-4FF1-97F8-4D565DBD8AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7521B722-12D8-4FF1-97F8-4D565DBD8AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D273A6-A73D-427E-A0A0-EBF67E97ED4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D273A6-A73D-427E-A0A0-EBF67E97ED4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D273A6-A73D-427E-A0A0-EBF67E97ED4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D273A6-A73D-427E-A0A0-EBF67E97ED4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51569097-1ABA-4119-B99E-10FC65617A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51569097-1ABA-4119-B99E-10FC65617A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51569097-1ABA-4119-B99E-10FC65617A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51569097-1ABA-4119-B99E-10FC65617A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CD3116-CA04-4102-A9B5-5C660BD7134C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CD3116-CA04-4102-A9B5-5C660BD7134C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CD3116-CA04-4102-A9B5-5C660BD7134C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CD3116-CA04-4102-A9B5-5C660BD7134C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7521B722-12D8-4FF1-97F8-4D565DBD8AE5} = {1A51BA43-6ED9-4D07-AA63-7379E55C2B04}
+		{C9D273A6-A73D-427E-A0A0-EBF67E97ED4F} = {30BB4A27-A6D0-401F-9D93-A7408897DA58}
+		{51569097-1ABA-4119-B99E-10FC65617A71} = {1A51BA43-6ED9-4D07-AA63-7379E55C2B04}
+		{B0CD3116-CA04-4102-A9B5-5C660BD7134C} = {30BB4A27-A6D0-401F-9D93-A7408897DA58}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿{
+  Diagnostics: [
+    {
+      Id: BFG005,
+      Title: Invalid byte boundary,
+      Severity: Error,
+      WarningLevel: 0,
+      Location: : (6,29)-(6,54),
+      Description: ,
+      HelpLink: ,
+      MessageFormat: The type {0} must be adjusted to byte boundaries,
+      Message: The type Spangle.LusterBits.UTF8String must be adjusted to byte boundaries,
+      Category: BFGen
+    }
+  ]
+}

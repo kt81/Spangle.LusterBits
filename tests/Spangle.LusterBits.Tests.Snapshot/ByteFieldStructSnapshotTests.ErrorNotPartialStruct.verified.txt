@@ -1,0 +1,16 @@
+﻿{
+  Diagnostics: [
+    {
+      Id: BFG001,
+      Title: Not a partial struct,
+      Severity: Error,
+      WarningLevel: 0,
+      Location: : (6,21)-(6,37),
+      Description: ,
+      HelpLink: ,
+      MessageFormat: {0} must be partial,
+      Message: NotPartialStruct must be partial,
+      Category: BFGen
+    }
+  ]
+}

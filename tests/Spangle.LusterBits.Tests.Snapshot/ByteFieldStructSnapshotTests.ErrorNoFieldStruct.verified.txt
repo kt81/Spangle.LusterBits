@@ -1,0 +1,16 @@
+﻿{
+  Diagnostics: [
+    {
+      Id: BFG003,
+      Title: No suitable field definitions,
+      Severity: Warning,
+      WarningLevel: 1,
+      Location: : (6,29)-(6,42),
+      Description: ,
+      HelpLink: ,
+      MessageFormat: {0} has no suitable field definitions,
+      Message: NoFieldStruct has no suitable field definitions,
+      Category: BFGen
+    }
+  ]
+}
