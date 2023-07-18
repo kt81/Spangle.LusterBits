@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
+    <RestoreSources>$(RestoreSources);../../src/Spangle.LusterBits/bin/Release/;https://api.nuget.org/v3/index.json</RestoreSources>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -39,6 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
+<!--    <PackageReference Include="Spangle.LusterBits" Version="0.1.0" />-->
     <ProjectReference Include="../../src/Spangle.LusterBits/Spangle.LusterBits.csproj" />
     <ProjectReference Include="../../src/Spangle.LusterBits.Generator/Spangle.LusterBits.Generator.csproj">
       <OutputItemType>Analyzer</OutputItemType>

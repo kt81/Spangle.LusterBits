@@ -4,7 +4,7 @@
 /// Specify the type of code to be generated.
 /// </summary>
 [Flags]
-#if BFS_GENERATOR
+#if SPANGLE_LUSTERBITS_GENERATOR
 internal
 #else
 public

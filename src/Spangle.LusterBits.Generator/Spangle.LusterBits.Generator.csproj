@@ -13,11 +13,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DefineConstants>TRACE;BFS_GENEATOR</DefineConstants>
+    <DefineConstants>TRACE;SPANGLE_LUSTERBITS_GENERATOR;</DefineConstants>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DefineConstants>TRACE;BFS_GENEATOR</DefineConstants>
+    <DefineConstants>TRACE;SPANGLE_LUSTERBITS_GENERATOR;</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,6 +30,5 @@
       <Link>GenerateType.cs</Link>
     </Compile>
   </ItemGroup>
-  
-  
+
 </Project>
