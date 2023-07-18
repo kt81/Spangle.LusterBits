@@ -8,14 +8,19 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <PackageId>Spangle.LusterBits</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Toshio Kumaki</Authors>
     <Description>Source generator to generate BitFields for struct.</Description>
     <PackageTags>BitField, bytefield, struct</PackageTags>
 
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageLicense>MIT</PackageLicense>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/kt81/Spangle.LusterBits</PackageProjectUrl>
   </PropertyGroup>
 
@@ -29,6 +34,7 @@
 
   <ItemGroup>
     <None Include="../../README.md" Pack="true" PackagePath="/" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="/" />
     <None Include="$(OutputPath)/$(AssemblyName).Generator.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
   </ItemGroup>
 
